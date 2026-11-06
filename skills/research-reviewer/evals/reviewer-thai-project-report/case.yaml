@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: reviewer-thai-project-report
+expected_outcome: |
+  review.md is a structured review of the report in Thai that catches the planted content problems (number mismatch, unanswered objective, overclaiming, uncited statistic, citation/bibliography mismatch), assigns severities, points to locations, and does not rewrite the report.
+context:
+  scaffold_script: place-files.sh

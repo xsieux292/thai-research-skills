@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: researcher-polish-intro
+expected_outcome: |
+  revised.md holds a polished academic-Thai version of section 1.1 that keeps the author's facts and citation, removes colloquialisms and 'ถูก' passives, fixes transliterations, flags the uncited 30% figure, and explains the changes.
+context:
+  scaffold_script: place-files.sh

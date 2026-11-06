@@ -1,0 +1,8 @@
+{
+  "name": "thai-research-skills",
+  "description": "Review and polish academic writing (research papers, theses, project reports, proposals) in Thai and English",
+  "version": "1.0.0",
+  "author": { "name": "xsieux292" },
+  "license": "MIT",
+  "keywords": ["thai", "academic-writing", "research", "thesis", "review"]
+}

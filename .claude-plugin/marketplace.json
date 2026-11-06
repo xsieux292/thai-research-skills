@@ -1,0 +1,12 @@
+{
+  "name": "thai-research-skills",
+  "owner": { "name": "xsieux292" },
+  "plugins": [
+    {
+      "name": "thai-research-skills",
+      "source": "./",
+      "description": "researcher (เกลาและแก้งานเขียนวิชาการ) + research-reviewer (ตรวจและให้ความเห็นงานวิจัย) ภาษาไทยและอังกฤษ",
+      "version": "1.0.0"
+    }
+  ]
+}
