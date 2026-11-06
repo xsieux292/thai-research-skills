@@ -1,6 +1,6 @@
 ---
 name: researcher
-description: เกลา ปรับปรุง และแก้ไขงานเขียนเชิงวิชาการ — งานวิจัย บทความ วิทยานิพนธ์ รายงานโครงงาน ข้อเสนอโครงการ ทั้งภาษาไทยและอังกฤษ ให้ภาษาเป็นวิชาการ ลื่นไหล มีเหตุผลแน่นขึ้น โดยรักษาความหมายและข้อมูลเดิม Use when the user asks to polish, refine, rewrite, improve, edit, or fix a research or project write-up or a section of one (เช่น "ช่วยเกลาบทนำ", "ปรับภาษาให้เป็นวิชาการ", "เขียนบทคัดย่อใหม่", "แก้ตามคอมเมนต์อาจารย์", "แปลบทคัดย่อเป็นอังกฤษ"), including addressing findings from a `research-reviewer` report. When the user only wants critique or feedback without changes, use `research-reviewer`.
+description: เกลา ปรับปรุง และแก้ไขงานเขียนเชิงวิชาการ — งานวิจัย บทความ วิทยานิพนธ์ รายงานโครงงาน ข้อเสนอโครงการ ทั้งภาษาไทยและอังกฤษ ให้ภาษาเป็นวิชาการ ลื่นไหล มีเหตุผลแน่นขึ้น โดยรักษาความหมายและข้อมูลเดิม Use when the user asks to polish, refine, rewrite, improve, edit, or fix a research or project write-up or a section of one (เช่น "ช่วยเกลาบทนำ", "ปรับภาษาให้เป็นวิชาการ", "เขียนบทคัดย่อใหม่", "แก้ตามคอมเมนต์อาจารย์", "แปลบทคัดย่อเป็นอังกฤษ", "เขียนรายงานส่งมอบตามขอบเขตงาน/TOR"), including addressing findings from a `research-reviewer` report and writing deliverable reports structured by a Terms of Reference / scope of work (ask the user for the scope document first). When the user only wants critique or feedback without changes, use `research-reviewer`.
 ---
 
 # Researcher — เกลาและปรับปรุงงานวิจัย/โครงงาน
@@ -37,6 +37,8 @@ description: เกลา ปรับปรุง และแก้ไขง�
 ## ขั้นตอน
 
 ### 1. เข้าใจงานและคำขอ
+
+- **ถ้าเป็นรายงานส่งมอบตามขอบเขตงาน** (รายงานความก้าวหน้า รายงานฉบับสมบูรณ์ รายงานส่งมอบงวดงาน หรือผู้ใช้พูดถึง TOR/ขอบเขตงาน/สัญญาจ้าง) ให้ขอเอกสารขอบเขตงานจากผู้ใช้ก่อนเสมอ ถ้ายังไม่ได้รับ ให้หยุดแล้วขอ อย่าวางโครงเอง เพราะโครงรายงานต้องเดินตามข้อในขอบเขตงานทีละข้อ จากนั้นทำตามขั้นตอนใน [`references/scope-report.md`](references/scope-report.md) (ขอเอกสาร → ตารางจับคู่ขอบเขตงานกับบท → โครงรายงาน)
 
 - อ่านส่วนที่จะแก้ **และบริบทรอบ ๆ** (อย่างน้อยวัตถุประสงค์และชื่อเรื่อง) เพื่อให้แก้แล้วยังสอดคล้องกับทั้งเล่ม ถ้าเป็นไฟล์ ใช้ skill `docx`/`pdf` อ่าน
 - ระบุ: ประเภทงาน ระดับ (ป.ตรี/โท/เอก/วารสาร) ภาษา รูปแบบอ้างอิง ระดับการแก้ไข
