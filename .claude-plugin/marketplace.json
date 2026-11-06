@@ -1,6 +1,11 @@
 {
   "name": "thai-research-skills",
-  "owner": { "name": "xsieux292" },
+  "owner": {
+    "name": "xsieux292"
+  },
+  "metadata": {
+    "description": "Claude skills สำหรับตรวจและเกลางานเขียนวิชาการภาษาไทย/อังกฤษ"
+  },
   "plugins": [
     {
       "name": "thai-research-skills",
